@@ -6,14 +6,24 @@
 (in-package :cl-user)
 
 (defpackage #:wolfcoin
-    (:nicknames #:wc #:wolf)
-    (:use :cl
-          :cl-user
-          :ironclad
-          :cl-json
-          :babel)
-    (:export #:start-wolfcoin
-             #:stop-wolfcoin
-             #:restart-wolfcoin))
+  (:nicknames #:wc #:wolf)
+  (:use :cl
+        :cl-user
+        :ironclad
+        :cl-json
+        :babel)
+  (:export #:start-wolfcoin
+           #:stop-wolfcoin
+           #:restart-wolfcoin))
+
+(defpackage #:wolfcoin-wallet
+  (:nicknames #:wc-w #:wolf-wallet)
+  (:use :cl
+        :cl-user
+        :ironclad
+        :cl-json
+        :babel
+        :wolfcoin)
+  (:export ))
 
 ;; EOF

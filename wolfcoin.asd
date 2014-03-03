@@ -23,6 +23,9 @@
     			 :cl-json
     			 :babel)
     :components ((:file "packages")
+    			 (:module "wallet"
+    			  :serial t
+    			  :components ((:file "wallet")))
                  (:file "wolfcoin")))
 
 ;; EOF
