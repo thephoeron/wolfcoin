@@ -9,6 +9,7 @@
   (:nicknames #:wc #:wolf)
   (:use :cl
         :cl-user
+        :local-time
         :ironclad
         :cl-isaac
         :cl-json
@@ -21,6 +22,7 @@
   (:nicknames #:wc-w #:wolf-wallet)
   (:use :cl
         :cl-user
+        :local-time
         :ironclad
         :cl-isaac
         :cl-json

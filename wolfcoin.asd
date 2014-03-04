@@ -19,18 +19,20 @@
     :license "MIT"
     :description "Crypto-currency client, protocol, and wallet written in Common Lisp."
     :serial t
-    :depends-on (:ironclad
-    			 :cl-isaac
-    			 :cl-json
-    			 :babel)
+    :depends-on (:local-time
+                 :ironclad
+                 :cl-isaac
+                 :cl-json
+                 :babel)
     :components ((:file "packages")
-    			 (:file "coin")
-    			 (:file "transaction")
-    			 (:file "p2p")
-    			 (:module "wallet"
-    			  :serial t
-    			  :components ((:file "db")
-    			  			   (:file "wallet")))
+                 (:file "coin")
+                 (:file "transaction")
+                 (:file "p2p")
+                 (:file "blockchain")
+                 (:module "wallet"
+                  :serial t
+                  :components ((:file "db")
+                               (:file "wallet")))
                  (:file "wolfcoin")))
 
 ;; EOF

@@ -8,7 +8,11 @@
 (defclass coin ()
   ((value :initarg :value :initval 0 :accessor value
           :documentation "The value of the current coin.")
+   (block :initarg :block :initval nil :accessor block
+          :documentation "The hash-id of the source block.")
    (origin :initarg :origin :initval nil :accessor origin
-           :documentation "Origin of current coin, a verifiable transaction list.")))
+           :documentation "Origin of current coin, a verifiable transaction list.")
+   (created-date :initarg :created-date :initval (local-time:today) :reader created-date
+                 :documentation "The LOCAL-TIME date object instance for when the coin was created.")))
 
 ;; EOF

@@ -5,4 +5,14 @@
 
 (in-package :wolfcoin)
 
+(defclass transaction ()
+  ((type :initarg :type :accessor type
+         :documentation "Transaction type, one of 'merge', 'transfer', 'purchase', 'exchange'.")
+   (coins :initarg :coins :accessor coins
+          :documentation "List of coin object instances. Usually a list of one object except for merges.")
+   (source :initarg :source :accessor source
+           :documentation "The source wallet")
+   (destination :initarg :destination :accessor destination
+                :documentation "The destination wallet.")))
+
 ;; EOF
