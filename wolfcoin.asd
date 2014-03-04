@@ -20,12 +20,17 @@
     :description "Crypto-currency client, protocol, and wallet written in Common Lisp."
     :serial t
     :depends-on (:ironclad
+    			 :cl-isaac
     			 :cl-json
     			 :babel)
     :components ((:file "packages")
+    			 (:file "coin")
+    			 (:file "transaction")
+    			 (:file "p2p")
     			 (:module "wallet"
     			  :serial t
-    			  :components ((:file "wallet")))
+    			  :components ((:file "db")
+    			  			   (:file "wallet")))
                  (:file "wolfcoin")))
 
 ;; EOF

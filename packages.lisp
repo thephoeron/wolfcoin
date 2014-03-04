@@ -10,6 +10,7 @@
   (:use :cl
         :cl-user
         :ironclad
+        :cl-isaac
         :cl-json
         :babel)
   (:export #:start-wolfcoin
@@ -21,6 +22,7 @@
   (:use :cl
         :cl-user
         :ironclad
+        :cl-isaac
         :cl-json
         :babel
         :wolfcoin)
