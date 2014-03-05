@@ -13,7 +13,8 @@
         :ironclad
         :cl-isaac
         :cl-json
-        :babel)
+        :babel
+        :cl-store)
   (:export #:start-wolfcoin
            #:stop-wolfcoin
            #:restart-wolfcoin))
@@ -27,6 +28,7 @@
         :cl-isaac
         :cl-json
         :babel
+        :cl-store
         :wolfcoin)
   (:export ))
 

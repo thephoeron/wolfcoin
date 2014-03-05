@@ -23,7 +23,8 @@
                  :ironclad
                  :cl-isaac
                  :cl-json
-                 :babel)
+                 :babel
+                 :cl-store)
     :components ((:file "packages")
                  (:file "coin")
                  (:file "transaction")
