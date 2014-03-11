@@ -34,6 +34,13 @@
                   :serial t
                   :components ((:file "db")
                                (:file "wallet")))
+                 (:module "rpc"
+                  :serial t
+                  :components ((:file "interface")
+                               (:file "rpc")))
+                 (:module "client"
+                  :serial t
+                  :components ((:file "client")))
                  (:file "wolfcoin")))
 
 ;; EOF

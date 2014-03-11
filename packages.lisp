@@ -6,7 +6,7 @@
 (in-package :cl-user)
 
 (defpackage #:wolfcoin
-  (:nicknames #:wc #:wolf)
+  (:nicknames #:wlf #:wolf)
   (:use :cl
         :cl-user
         :local-time
@@ -20,16 +20,22 @@
            #:restart-wolfcoin))
 
 (defpackage #:wolfcoin-wallet
-  (:nicknames #:wc-w #:wolf-wallet)
+  (:nicknames #:wlf-w #:wolf-wallet)
   (:use :cl
         :cl-user
         :local-time
         :ironclad
         :cl-isaac
-        :cl-json
         :babel
         :cl-store
-        :wolfcoin)
-  (:export ))
+        :wolfcoin))
+
+(defpackage #:wolfcoin-rpc
+  (:nicknames #:wlf-rpc #:wolf-rpc)
+  (:use :cl :cl-user :local-time :ironclad :cl-isaac :babel :cl-json :wolfcoin :wolfcoin-wallet))
+
+(defpackage #:wolfcoin-client
+  (:nicknames #:wlf-ltk #:wolf-ltk)
+  (:use :cl :cl-user :ltk :ironclad :cl-isaac :babel :cl-json :wolfcoin :wolfcoin-wallet :wolfcoin-rpc))
 
 ;; EOF
