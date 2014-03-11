@@ -24,7 +24,8 @@
                  :cl-isaac
                  :cl-json
                  :babel
-                 :cl-store)
+                 :cl-store
+                 :ltk)
     :components ((:file "packages")
                  (:file "coin")
                  (:file "transaction")
