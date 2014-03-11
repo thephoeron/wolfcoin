@@ -11,9 +11,9 @@
    (coins :initarg :coins :accessor coins
           :documentation "List of coin object instances. Usually a list of one object except for merges.")
    (source :initarg :source :accessor source
-           :documentation "The source wallet")
+           :documentation "The source wallet address.")
    (destination :initarg :destination :accessor destination
-                :documentation "The destination wallet.")))
+                :documentation "The destination wallet address.")))
 
 (defgeneric valid-tx-p (transaction)
   (:documentation "Transaction validator predicate."))
