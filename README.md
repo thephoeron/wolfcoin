@@ -14,8 +14,16 @@ Crypto-currency client, protocol, and wallet written in Common Lisp
 
 #### Support this Project
 
-You can donate Bitcoin or Litecoin to support this project
+You can donate Bitcoin or Litecoin to support this project:
 
 BTC: 17VSuaCJQyNotz2Mj9W4N5nEJPBmZJ3g7j
 
 LTC: LhkxacqZ8wAcPgjzgRAfHpVUnHYG9XvRm3
+
+#### Contributing
+
+If you would like to contribute to the development of Wolfcoin, you may fork and create a pull-request.
+
+#### License
+
+This project is released under the MIT License.  Please see LICENSE for more information.
