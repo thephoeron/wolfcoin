@@ -15,4 +15,7 @@
    (destination :initarg :destination :accessor destination
                 :documentation "The destination wallet.")))
 
+(defgeneric valid-tx-p (transaction)
+  (:documentation "Transaction validator predicate."))
+
 ;; EOF

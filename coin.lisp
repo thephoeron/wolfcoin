@@ -15,4 +15,7 @@
    (created-date :initarg :created-date :initval (local-time:today) :reader created-date
                  :documentation "The LOCAL-TIME date object instance for when the coin was created.")))
 
+(defgeneric valid-origin-p (coin)
+  (:documentation "Coin origin validation predicate."))
+
 ;; EOF
