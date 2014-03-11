@@ -6,6 +6,9 @@ Crypto-currency client, protocol, and wallet written in Common Lisp
 
 #### Core ideas
 
+* LTK cross-platform client UI
+    * lighter-weight than QT
+    * better native look-and-feel
 * Encrypted blockchain, tracker, and router
 	* Transactions validated randomly and anonymously
 * Randomized mining using ISAAC-64 algorithm
