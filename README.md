@@ -8,7 +8,9 @@ Crypto-currency client, protocol, and wallet written in Common Lisp
 
 * Currency symbols and Units:
 	* Currency ID: WLF
-	* Currency symbol: ⒲
+	* Currency symbol:
+	    * Unicode: ⒲ (#\parenthesized_latin_small_letter_w)
+	    * ASCII: (W)
 	* 1 mWLF = ⒲ 0.001
 	* 1 μWLF = ⒲ 0.000001
 * LTK cross-platform client UI
