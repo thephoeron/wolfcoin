@@ -22,6 +22,7 @@
     :depends-on (:local-time
                  :ironclad
                  :cl-isaac
+                 :hunchentoot
                  :cl-json
                  :babel
                  :cl-store

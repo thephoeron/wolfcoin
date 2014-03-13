@@ -32,7 +32,7 @@
 
 (defpackage #:wolfcoin-rpc
   (:nicknames #:wlf-rpc #:wolf-rpc)
-  (:use :cl :cl-user :local-time :ironclad :cl-isaac :babel :cl-json :wolfcoin :wolfcoin-wallet))
+  (:use :cl :cl-user :local-time :ironclad :cl-isaac :babel :hunchentoot :cl-json :wolfcoin :wolfcoin-wallet))
 
 (defpackage #:wolfcoin-client
   (:nicknames #:wlf-ltk #:wolf-ltk)
