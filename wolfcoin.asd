@@ -32,6 +32,7 @@
                  (:file "transaction")
                  (:file "p2p")
                  (:file "blockchain")
+                 (:file "miner")
                  (:module "wallet"
                   :serial t
                   :components ((:file "db")
