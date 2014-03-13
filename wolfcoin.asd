@@ -19,7 +19,8 @@
     :license "MIT"
     :description "Crypto-currency client, protocol, and wallet written in Common Lisp."
     :serial t
-    :depends-on (:local-time
+    :depends-on (:lparallel
+                 :local-time
                  :ironclad
                  :cl-isaac
                  :hunchentoot

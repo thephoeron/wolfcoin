@@ -9,6 +9,7 @@
   (:nicknames #:wlf #:wolf)
   (:use :cl
         :cl-user
+        :lparallel
         :local-time
         :ironclad
         :cl-isaac
