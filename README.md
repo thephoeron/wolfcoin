@@ -6,6 +6,11 @@ Crypto-currency client, protocol, and wallet written in Common Lisp
 
 #### Core ideas
 
+* Currency symbols and Units:
+	* Currency ID: WLF
+	* Currency symbol: ⒲
+	* 1 mWLF = ⒲ 0.001
+	* 1 μWLF = ⒲ 0.000001
 * LTK cross-platform client UI
     * lighter-weight than QT
     * better native look-and-feel
