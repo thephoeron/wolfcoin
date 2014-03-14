@@ -25,6 +25,12 @@
    (transactions :initarg :transactions :accessor transactions
                  :documentation "The list of transactions on this block")))
 
+(defgeneric block-height (block)
+  (:documentation "Get the block-height of the current block on the blockchain."))
+
+(defgeneric number-of-transactions (block)
+  (:documentation "Count the transactions on the block."))
+
 (defgeneric valid-block-p (block)
   (:documentation "Block validator predicate."))
 
@@ -33,5 +39,8 @@
 
 (defgeneric push-block-to-blockchain (block blockchain)
   (:documentation "Push new block to local blockchain."))
+
+(defgeneric push-tx-to-latest-block (tx block blockchain)
+  (:documentation "Find the latest block on the blockchain and push transaction to it."))
 
 ;; EOF
