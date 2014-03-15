@@ -27,6 +27,7 @@
                  :cl-json
                  :babel
                  :cl-store
+                 :cl-p2p
                  :ltk)
     :components ((:file "packages")
                  (:file "coin")

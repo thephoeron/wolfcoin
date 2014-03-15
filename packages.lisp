@@ -15,7 +15,8 @@
         :cl-isaac
         :cl-json
         :babel
-        :cl-store)
+        :cl-store
+        :cl-p2p)
   (:export #:start-wolfcoin
            #:stop-wolfcoin
            #:restart-wolfcoin))
