@@ -1,6 +1,6 @@
 ## WOLFCOIN
 
-Crypto-currency client, protocol, and wallet written in Common Lisp
+Common Lisp interface to Wolfcoin crypto-currency daemon
 
 *Work-in-progress.*
 
