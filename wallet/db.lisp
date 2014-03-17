@@ -5,6 +5,12 @@
 
 (in-package :wolfcoin-wallet)
 
-
+(defclass wallet ()
+  ((id :initarg :wallet :reader id
+       :documentation "The WALLET id integer.")
+   (addresses :initarg :addresses :initform '() :accessor addresses
+              :documentation "The list of addresses associated with this wallet.")
+   (coins :initarg :coins :initform '() :accessor coins
+          :documentation "The list collection of coin objects stored in this wallet.")))
 
 ;; EOF
