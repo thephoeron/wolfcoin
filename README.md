@@ -1,4 +1,4 @@
-## WOLFCOIN
+## CL-WOLFCOIN
 
 Common Lisp interface to Wolfcoin crypto-currency daemon
 
