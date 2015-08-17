@@ -26,9 +26,7 @@
                  :hunchentoot
                  :cl-json
                  :babel
-                 :cl-store
-                 :cl-p2p
-                 :ltk)
+                 :cl-store)
     :components ((:file "packages")
                  (:file "coin")
                  (:file "transaction")
