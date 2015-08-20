@@ -39,5 +39,9 @@
 (defpackage #:wolfcoin-client
   (:nicknames #:wlf-ltk #:wolf-ltk)
   (:use :cl :cl-user :ltk :ironclad :cl-isaac :babel :cl-json :wolfcoin :wolfcoin-wallet :wolfcoin-rpc))
+  
+(defpackage #:wolfcoin-ecdsa
+  (:nicknames #:wlf-ecdsa #:wolf-ecdsa)
+  (:use :cl :cl-user :ironclad :cl-isaac))
 
 ;; EOF
