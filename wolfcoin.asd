@@ -25,6 +25,7 @@
                  :cl-isaac
                  :hunchentoot
                  :cl-json
+                 :flexi-streams
                  :babel
                  :cl-store)
     :components ((:file "packages")
