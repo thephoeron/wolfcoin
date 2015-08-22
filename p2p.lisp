@@ -5,6 +5,4 @@
 
 (in-package :wolfcoin)
 
-;; wrap around cl-p2p lib functions to create wolfcoin network
-
 ;; EOF
