@@ -32,6 +32,10 @@
                  (:file "coin")
                  (:file "transaction")
                  (:file "p2p")
+                 (:module "ecdsa"
+                  :serial t
+                  :components ((:file "eckey")
+                               (:file "ecdsa")))
                  (:file "blockchain")
                  (:file "miner")
                  (:module "wallet"
