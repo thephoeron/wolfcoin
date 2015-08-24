@@ -23,6 +23,7 @@
     :depends-on (:lparallel
                  :local-time
                  :ironclad
+                 :bit-smasher
                  :cl-isaac
                  :hunchentoot
                  :cl-json

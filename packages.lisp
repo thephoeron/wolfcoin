@@ -43,6 +43,6 @@
 
 (defpackage #:wolfcoin-ecdsa
   (:nicknames #:wlf-ecdsa #:wolf-ecdsa)
-  (:use :cl :cl-user :ironclad :cl-isaac))
+  (:use :cl :cl-user :ironclad :bit-smasher :cl-isaac))
 
 ;; EOF
