@@ -1,6 +1,7 @@
-;;;; -*- Mode: LISP; Syntax: COMMON-LISP; Package: WOLFCOIN-RPC; Base: 10 -*- file: rpc/interface.lisp
+;;;; -*- Mode: LISP; Syntax: COMMON-LISP; Package: WOLFCOIN-RPC; Base: 10 -*-
+;;;; file: rpc/interface.lisp
 
-;;;; Copyright (c) 2014 "the Phoeron" Colin J.E. Lupton <//thephoeron.com>
+;;;; Copyright (c) 2014--2015, "the Phoeron" Colin J.E. Lupton <//thephoeron.com>
 ;;;; See LICENSE for additional information.
 
 (in-package :wolfcoin-rpc)

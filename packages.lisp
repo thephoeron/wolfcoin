@@ -1,6 +1,7 @@
-;;;; -*- Mode: LISP; Syntax: COMMON-LISP; Package: WOLFCOIN; Base: 10 -*- file: packages.lisp
+;;;; -*- Mode: LISP; Syntax: COMMON-LISP; Package: WOLFCOIN; Base: 10 -*-
+;;;; file: packages.lisp
 
-;;;; Copyright (c) 2014 "the Phoeron" Colin J.E. Lupton <//thephoeron.com>
+;;;; Copyright (c) 2014--2015, "the Phoeron" Colin J.E. Lupton <//thephoeron.com>
 ;;;; See LICENSE for additional information.
 
 (in-package :cl-user)
@@ -39,7 +40,7 @@
 (defpackage #:wolfcoin-client
   (:nicknames #:wlf-ltk #:wolf-ltk)
   (:use :cl :cl-user :ltk :ironclad :cl-isaac :babel :cl-json :wolfcoin :wolfcoin-wallet :wolfcoin-rpc))
-  
+
 (defpackage #:wolfcoin-ecdsa
   (:nicknames #:wlf-ecdsa #:wolf-ecdsa)
   (:use :cl :cl-user :ironclad :cl-isaac))
