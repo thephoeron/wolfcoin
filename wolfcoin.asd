@@ -43,6 +43,7 @@
                  (:module "wallet"
                   :serial t
                   :components ((:file "db")
+                               (:file "hdk")
                                (:file "wallet")))
                  (:module "rpc"
                   :serial t
