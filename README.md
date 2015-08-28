@@ -1,7 +1,6 @@
 # WOLFCOIN
 
 [![Build Status](https://circleci.com/gh/thephoeron/wolfcoin.svg?style=shield)](https://circleci.com/gh/thephoeron/wolfcoin)
-[![Build Status](https://travis-ci.org/thephoeron/wolfcoin.svg)](https://travis-ci.org/thephoeron/wolfcoin)
 [![Coverage Status](http://coveralls.io/repos/thephoeron/wolfcoin/badge.svg?branch=master&service=github)](http://coveralls.io/github/thephoeron/wolfcoin?branch=master)
 [![Quicklisp](http://quickdocs.org/badge/wolfcoin.svg)](http://quickdocs.org/wolfcoin/)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
