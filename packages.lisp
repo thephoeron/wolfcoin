@@ -17,6 +17,7 @@
         :jonathan
         :babel
         :cl-store)
+  (:shadowing-import-from :cl-user #:null)
   (:export #:start-wolfcoin
            #:stop-wolfcoin
            #:restart-wolfcoin))
@@ -30,18 +31,22 @@
         :cl-isaac
         :babel
         :cl-store
-        :wolfcoin))
+        :wolfcoin)
+  (:shadowing-import-from :cl-user #:null))
 
 (defpackage #:wolfcoin-rpc
   (:nicknames #:wlf-rpc #:wolf-rpc)
-  (:use :cl :cl-user :local-time :ironclad :cl-isaac :babel :wookie :jonathan :wolfcoin :wolfcoin-wallet))
+  (:use :cl :cl-user :local-time :ironclad :cl-isaac :babel :wookie :jonathan :wolfcoin :wolfcoin-wallet)
+  (:shadowing-import-from :cl-user #:null))
 
 (defpackage #:wolfcoin-client
   (:nicknames #:wlf-ltk #:wolf-ltk)
-  (:use :cl :cl-user :ironclad :cl-isaac :babel :jonathan :wolfcoin :wolfcoin-wallet :wolfcoin-rpc))
+  (:use :cl :cl-user :ironclad :cl-isaac :babel :jonathan :wolfcoin :wolfcoin-wallet :wolfcoin-rpc)
+  (:shadowing-import-from :cl-user #:null))
 
 (defpackage #:wolfcoin-ecdsa
   (:nicknames #:wlf-ecdsa #:wolf-ecdsa)
-  (:use :cl :cl-user :ironclad :bit-smasher :cl-isaac))
+  (:use :cl :cl-user :ironclad :bit-smasher :cl-isaac)
+  (:shadowing-import-from :cl-user #:null))
 
 ;; EOF
