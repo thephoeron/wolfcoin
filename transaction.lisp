@@ -7,7 +7,7 @@
 (in-package :wolfcoin)
 
 (defclass transaction ()
-  ((type :initarg :type :accessor type
+  ((tx-type :initarg :tx-type :accessor tx-type
          :documentation "Transaction type, one of 'merge', 'transfer', 'purchase', 'exchange'.")
    (coins :initarg :coins :accessor coins
           :documentation "List of coin object instances. Usually a list of one object except for merges.")
