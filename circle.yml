@@ -4,7 +4,7 @@ machine:
 
 dependencies:
   pre:
-    - sudo apt-get update; sudo apt-get install libuv
+    - sudo apt-get update; sudo apt-get install libuv1-dev
     - curl -L https://raw.githubusercontent.com/snmsts/roswell/release/scripts/install-for-ci.sh | sh
     - case $CIRCLE_NODE_INDEX in
         0) ros config set default.lisp sbcl-bin ;;
