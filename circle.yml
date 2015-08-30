@@ -1,8 +1,8 @@
 machine:
   environment:
     PATH: ~/.roswell/bin:$PATH
-    LD_LIBRARY_PATH=$HOME/libuv/lib:$LD_LIBRARY_PATH
-    C_INCLUDE_PATH=$HOME/libuv/include:$C_INCLUDE_PATH
+    LD_LIBRARY_PATH: $HOME/libuv/lib:$LD_LIBRARY_PATH
+    C_INCLUDE_PATH: $HOME/libuv/include:$C_INCLUDE_PATH
 
 dependencies:
   pre:
