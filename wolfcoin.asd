@@ -25,8 +25,11 @@
                  :ironclad
                  :bit-smasher
                  :cl-isaac
-                 :hunchentoot
-                 :cl-json
+                 :wookie
+                 :cl-who
+                 :cl-css
+                 :parenscript
+                 :jonathan
                  :flexi-streams
                  :babel
                  :cl-store)
