@@ -7,13 +7,13 @@
 (in-package :wolfcoin)
 
 (defclass coin ()
-  ((value :initarg :value :initval 0 :accessor value
+  ((value :initarg :value :initform 0 :accessor value
           :documentation "The value of the current coin.")
-   (tx-block :initarg :tx-block :initval nil :accessor tx-block
+   (tx-block :initarg :tx-block :initform nil :accessor tx-block
           :documentation "The hash-id of the source block.")
-   (origin :initarg :origin :initval nil :accessor origin
+   (origin :initarg :origin :initform nil :accessor origin
            :documentation "Origin of current coin, a verifiable transaction list.")
-   (created-date :initarg :created-date :initval (local-time:today) :reader created-date
+   (created-date :initarg :created-date :initform (local-time:today) :reader created-date
                  :documentation "The LOCAL-TIME date object instance for when the coin was created.")))
 
 (defgeneric valid-origin-p (coin)
