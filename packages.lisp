@@ -14,10 +14,9 @@
         :local-time
         :ironclad
         :cl-isaac
-        :cl-json
+        :jonathan
         :babel
-        :cl-store
-        :cl-p2p)
+        :cl-store)
   (:export #:start-wolfcoin
            #:stop-wolfcoin
            #:restart-wolfcoin))
@@ -35,11 +34,11 @@
 
 (defpackage #:wolfcoin-rpc
   (:nicknames #:wlf-rpc #:wolf-rpc)
-  (:use :cl :cl-user :local-time :ironclad :cl-isaac :babel :hunchentoot :cl-json :wolfcoin :wolfcoin-wallet))
+  (:use :cl :cl-user :local-time :ironclad :cl-isaac :babel :wookie :jonathan :wolfcoin :wolfcoin-wallet))
 
 (defpackage #:wolfcoin-client
   (:nicknames #:wlf-ltk #:wolf-ltk)
-  (:use :cl :cl-user :ltk :ironclad :cl-isaac :babel :cl-json :wolfcoin :wolfcoin-wallet :wolfcoin-rpc))
+  (:use :cl :cl-user :ironclad :cl-isaac :babel :jonathan :wolfcoin :wolfcoin-wallet :wolfcoin-rpc))
 
 (defpackage #:wolfcoin-ecdsa
   (:nicknames #:wlf-ecdsa #:wolf-ecdsa)
