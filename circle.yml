@@ -25,3 +25,8 @@ dependencies:
 test:
   override:
     - if [ "$CIRCLE_NODE_INDEX" = 0 ]; then COVERALLS=true run-prove wolfcoin-test.asd; else run-prove wolfcoin-test.asd; fi: {parallel: true}
+notify:
+  webhooks:
+    # A list of hook hashes, containing the url field
+    # gitter hook
+    - url: https://webhooks.gitter.im/e/e1b0789151a359cf2efe
