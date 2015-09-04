@@ -1,4 +1,4 @@
 # WOLFCOIN
 
-Common Lisp Crypto-Currency
+Common Lisp Crypto-Currency client, protocol, and wallet.
 
