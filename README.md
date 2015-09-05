@@ -10,6 +10,8 @@ Common Lisp Crypto-currency client, protocol, and wallet
 
 *Work-in-progress.*
 
+Documentation is available at: http://thephoeron.viewdocs.io/wolfcoin/
+
 #### Core ideas
 
 * Currency symbols and Units:
