@@ -1,0 +1,2 @@
+## Wolfcoin Architecture
+
