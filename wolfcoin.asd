@@ -36,7 +36,11 @@
     :components ((:file "packages")
                  (:file "coin")
                  (:file "transaction")
-                 (:file "p2p")
+                 (:module "p2p"
+                  :serial t
+                  :components ((:file "network")
+                               (:file "send")
+                               (:file "receive")))
                  (:module "ecdsa"
                   :serial t
                   :components ((:file "eckey")
