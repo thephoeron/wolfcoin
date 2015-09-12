@@ -49,4 +49,8 @@
   (:use :cl :cl-user :ironclad :bit-smasher :cl-isaac)
   (:shadowing-import-from :cl-user #:null))
 
+(defpackage #:wolfcoin-p2p
+  (:nicknames #:wlf-p2p #:wolf-p2p)
+  (:use :cl :cl-user))
+
 ;; EOF
