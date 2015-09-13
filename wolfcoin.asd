@@ -34,6 +34,7 @@
                  :babel
                  :cl-store)
     :components ((:file "packages")
+                 (:file "config")
                  (:file "coin")
                  (:file "transaction")
                  (:module "p2p"
