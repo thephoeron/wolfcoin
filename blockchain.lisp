@@ -6,7 +6,8 @@
 
 (in-package :wolfcoin)
 
-(defvar *blockchain* (make-hash-table))
+;; Using CL-STORE+Ironclad, this should be stored to disk in a user directory
+(defparameter *blockchain* (make-hash-table))
 
 ;; Maybe extend the block hash-id string to include timestamp and mint
 (defun generate-block-hash ()
