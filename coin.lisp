@@ -6,6 +6,8 @@
 
 (in-package :wolfcoin)
 
+;; deprecate COIN module, 9/14/2015
+
 (defclass coin ()
   ((value :initarg :value :initform 0 :accessor value
           :documentation "The value of the current coin.")
