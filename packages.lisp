@@ -34,6 +34,11 @@
         :wolfcoin)
   (:shadowing-import-from :cl-user #:null))
 
+(defpackage #:wolfcoin-api
+  (:nicknames #:wlf-api #:wolf-api)
+  (:use :cl :cl-user :local-time :ironclad :cl-isaac :babel :wookie :jonathan :wolfcoin :wolfcoin-wallet)
+  (:shadowing-import-from :cl-user #:null))
+
 (defpackage #:wolfcoin-rpc
   (:nicknames #:wlf-rpc #:wolf-rpc)
   (:use :cl :cl-user :local-time :ironclad :cl-isaac :babel :wookie :jonathan :wolfcoin :wolfcoin-wallet)
