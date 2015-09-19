@@ -52,10 +52,9 @@
                   :components ((:file "db")
                                (:file "hdk")
                                (:file "wallet")))
-                 (:module "rpc"
+                 (:module "rest"
                   :serial t
-                  :components ((:file "interface")
-                               (:file "rpc")))
+                  :components ((:file "api")))
                  (:module "client"
                   :serial t
                   :components ((:file "client")))
