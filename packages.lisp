@@ -47,7 +47,7 @@
 
 (defpackage #:wolfcoin-client
   (:nicknames #:wlf-ltk #:wolf-ltk)
-  (:use :cl :cl-user :ironclad :cl-isaac :babel :jonathan :wolfcoin :wolfcoin-wallet :wolfcoin-rpc)
+  (:use :cl :cl-user :ironclad :cl-isaac :babel :jonathan :wolfcoin :wolfcoin-wallet :wolfcoin-api)
   (:shadowing-import-from :cl-user #:null))
 
 (defpackage #:wolfcoin-ecdsa
