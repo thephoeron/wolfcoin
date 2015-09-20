@@ -39,10 +39,11 @@
   (:use :cl :cl-user :local-time :ironclad :cl-isaac :babel :wookie :jonathan :wolfcoin :wolfcoin-wallet)
   (:shadowing-import-from :cl-user #:null))
 
-(defpackage #:wolfcoin-rpc
-  (:nicknames #:wlf-rpc #:wolf-rpc)
-  (:use :cl :cl-user :local-time :ironclad :cl-isaac :babel :wookie :jonathan :wolfcoin :wolfcoin-wallet)
-  (:shadowing-import-from :cl-user #:null))
+;; deprecate WOLFCOIN-RPC package
+; (defpackage #:wolfcoin-rpc
+;   (:nicknames #:wlf-rpc #:wolf-rpc)
+;   (:use :cl :cl-user :local-time :ironclad :cl-isaac :babel :wookie :jonathan :wolfcoin :wolfcoin-wallet)
+;   (:shadowing-import-from :cl-user #:null))
 
 (defpackage #:wolfcoin-client
   (:nicknames #:wlf-ltk #:wolf-ltk)
