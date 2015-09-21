@@ -7,16 +7,12 @@
 	    * ASCII: (w)
 	* 1 mWLF = ⒲ 0.001
 	* 1 μWLF = ⒲ 0.000001
-* LTK cross-platform client UI? or local Web Wallet?
-	* LTK:
-    	* lighter-weight than QT
-    	* better native look-and-feel
-    * Local Web Wallet:
-    	* Faster development time
-    	* Wallets encrypted by default
-    	* Easily create and manage multiple local wallets
-    	* Reduce dependencies, Hunchentoot already loaded and running for JSON-RPC
-    	* Would have to be live-updating, use JS templates such as handlebars
+* Local Web-based Wallet:
+    * Faster development time
+    * Wallets encrypted by default
+    * Easily create and manage multiple local wallets
+    * Reduce dependencies
+    * Live-updating, using JS templates such as handlebars, angular, or react
 * Encrypted blockchain, tracker, and router
 	* Transactions validated randomly and anonymously
 * Randomized mining using ISAAC-64 algorithm
