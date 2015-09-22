@@ -15,15 +15,17 @@ See: https://github.com/zack-bitcoin/basiccoin
 * Database
 * HD Wallet
 * Miner
-* REST API/JSON-RPC ?
+* REST API
 * Web-based Client
 
 #### Dependencies:
 
 * Nibbles
 * Ironclad
+* CL-ISAAC
+* BIT-SMASHER
 * CL-STORE
-* CL-Async
+* CL-ASYNC
 * Wookie
 * CL-WHO
 * CL-CSS
